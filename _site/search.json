@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Reviewing Docs Efficiently in GitHub",
+      "link"			: "http://docslikecode.com/articles/save-the-docs/",
+      "excerpt"		: "Do you know what tool was found to be most effective at saving lives in hospitals?"
+    }
+  
+
+  
+    ,{
       "title"			: "Building Docs Like Code",
       "link"			: "http://docslikecode.com/articles/what-docs-like-code-looks-like/",
       "excerpt"		: "Let’s look at a live example."
