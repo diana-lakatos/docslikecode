@@ -20,7 +20,7 @@ bundle exec jekyll build
 bundle exec htmlproofer ./_site
 ```
 
-Because Jekyll sites are deployed by copying flat files from a static directory, you can store a script to build the site in the code repo with other build files. You can also have a simple link checker to test for any broken links before deploying the site. The `htmlproofer` is a Ruby library written to do just that.
+Jekyll sites are deployed by copying flat files from a static directory, so you can store a script to build the site in the code repo with other build files. You can also have a simple link checker to test for any broken links before deploying the site. The `htmlproofer` is a Ruby library written to do just that.
 
 The deployment mechanism provided by GitHub is called GitHub Pages. You have some options for triggering a docs deployment. You can automate builds from a `gh-pages` branch, from the `master` branch, or always deploy docs from a `/docs` directory on the `master` branch. Your GitHub repo has these options on the Settings page. While you can deploy to a custom domain name, one limitation for GitHub Pages currently is that you <a href="https://github.com/isaacs/github/issues/156">cannot serve directly through HTTPS</a>, but as a free service it's a good starting point. For production web sites, you can deploy from GitHub to a cloud server or VPS that has the security requirements you need. More or less, you are creating your own hosted web site.
 
